@@ -14,6 +14,7 @@
 		C43D449428BF3A51008497A7 /* GridLayoutTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D449328BF3A51008497A7 /* GridLayoutTutorialTests.swift */; };
 		C43D449E28BF3A51008497A7 /* GridLayoutTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D449D28BF3A51008497A7 /* GridLayoutTutorialUITests.swift */; };
 		C43D44A028BF3A51008497A7 /* GridLayoutTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D449F28BF3A51008497A7 /* GridLayoutTutorialUITestsLaunchTests.swift */; };
+		C43D44AE28BF738B008497A7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D44AD28BF738B008497A7 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C43D449928BF3A51008497A7 /* GridLayoutTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridLayoutTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43D449D28BF3A51008497A7 /* GridLayoutTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutTutorialUITests.swift; sourceTree = "<group>"; };
 		C43D449F28BF3A51008497A7 /* GridLayoutTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C43D44AD28BF738B008497A7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C43D448228BF3A50008497A7 /* GridLayoutTutorialApp.swift */,
 				C43D448428BF3A50008497A7 /* ContentView.swift */,
+				C43D44AC28BF7377008497A7 /* Shared */,
 				C43D448628BF3A51008497A7 /* Assets.xcassets */,
 				C43D448828BF3A51008497A7 /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				C43D449F28BF3A51008497A7 /* GridLayoutTutorialUITestsLaunchTests.swift */,
 			);
 			path = GridLayoutTutorialUITests;
+			sourceTree = "<group>";
+		};
+		C43D44AC28BF7377008497A7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C43D44AD28BF738B008497A7 /* CustomButton.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				C43D448528BF3A50008497A7 /* ContentView.swift in Sources */,
 				C43D448328BF3A50008497A7 /* GridLayoutTutorialApp.swift in Sources */,
+				C43D44AE28BF738B008497A7 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
